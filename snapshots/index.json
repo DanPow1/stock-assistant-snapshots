@@ -1,13 +1,13 @@
 {
   "schemaVersion": "stock-snapshot-index-v1",
-  "generatedAt": "2026-09-14T13:43:46.819Z",
+  "generatedAt": "2026-09-14T14:14:44.658Z",
   "providerCalls": 1,
   "snapshots": [
     {
       "schemaVersion": "assistant-snapshot-v1",
       "ticker": "AAPL",
       "company": "Apple",
-      "analysisTimestamp": "2026-09-14T13:43:46.819Z",
+      "analysisTimestamp": "2026-09-14T14:14:44.658Z",
       "dataFreshness": "unavailable",
       "marketState": "unknown",
       "evidence": {
@@ -46,7 +46,7 @@
       "schemaVersion": "assistant-snapshot-v1",
       "ticker": "MSFT",
       "company": "Microsoft",
-      "analysisTimestamp": "2026-09-14T13:43:46.819Z",
+      "analysisTimestamp": "2026-09-14T14:14:44.658Z",
       "dataFreshness": "unavailable",
       "marketState": "unknown",
       "evidence": {
@@ -85,7 +85,7 @@
       "schemaVersion": "assistant-snapshot-v1",
       "ticker": "NVDA",
       "company": "NVIDIA",
-      "analysisTimestamp": "2026-09-14T13:43:46.819Z",
+      "analysisTimestamp": "2026-09-14T14:14:44.658Z",
       "dataFreshness": "unavailable",
       "marketState": "unknown",
       "evidence": {
@@ -124,7 +124,7 @@
       "schemaVersion": "assistant-snapshot-v1",
       "ticker": "AMZN",
       "company": "Amazon",
-      "analysisTimestamp": "2026-09-14T13:43:46.819Z",
+      "analysisTimestamp": "2026-09-14T14:14:44.658Z",
       "dataFreshness": "unavailable",
       "marketState": "unknown",
       "evidence": {
@@ -163,7 +163,7 @@
       "schemaVersion": "assistant-snapshot-v1",
       "ticker": "PYPL",
       "company": "PayPal",
-      "analysisTimestamp": "2026-09-14T13:43:46.819Z",
+      "analysisTimestamp": "2026-09-14T14:14:44.658Z",
       "dataFreshness": "unavailable",
       "marketState": "unknown",
       "evidence": {
