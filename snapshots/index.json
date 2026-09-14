@@ -1,0 +1,202 @@
+{
+  "schemaVersion": "stock-snapshot-index-v1",
+  "generatedAt": "2026-09-14T12:34:58.064Z",
+  "providerCalls": 1,
+  "snapshots": [
+    {
+      "schemaVersion": "assistant-snapshot-v1",
+      "ticker": "AAPL",
+      "company": "Apple",
+      "analysisTimestamp": "2026-09-14T12:34:58.064Z",
+      "dataFreshness": "unavailable",
+      "marketState": "unknown",
+      "evidence": {
+        "longerTermTrend": "unavailable",
+        "shortTermMomentum": "unavailable",
+        "rsiBand": "unavailable",
+        "dailyTradingActivity": "unavailable",
+        "intradayVwap": "unavailable",
+        "intradayTradingActivity": "unavailable",
+        "sessionRangePosition": "unavailable"
+      },
+      "verifiedEvent": {
+        "detected": false,
+        "category": null,
+        "age": null
+      },
+      "supportingEvidence": [],
+      "conflictingEvidence": [],
+      "missingEvidence": [
+        "longerTermTrend",
+        "shortTermMomentum",
+        "rsiBand",
+        "dailyTradingActivity",
+        "intradayVwap",
+        "intradayTradingActivity",
+        "sessionRangePosition",
+        "verifiedRecentEvent"
+      ],
+      "dataQualityWarnings": [
+        "Current market evidence unavailable",
+        "Daily evidence unavailable or stale",
+        "Current intraday evidence unavailable or stale"
+      ]
+    },
+    {
+      "schemaVersion": "assistant-snapshot-v1",
+      "ticker": "MSFT",
+      "company": "Microsoft",
+      "analysisTimestamp": "2026-09-14T12:34:58.064Z",
+      "dataFreshness": "unavailable",
+      "marketState": "unknown",
+      "evidence": {
+        "longerTermTrend": "unavailable",
+        "shortTermMomentum": "unavailable",
+        "rsiBand": "unavailable",
+        "dailyTradingActivity": "unavailable",
+        "intradayVwap": "unavailable",
+        "intradayTradingActivity": "unavailable",
+        "sessionRangePosition": "unavailable"
+      },
+      "verifiedEvent": {
+        "detected": false,
+        "category": null,
+        "age": null
+      },
+      "supportingEvidence": [],
+      "conflictingEvidence": [],
+      "missingEvidence": [
+        "longerTermTrend",
+        "shortTermMomentum",
+        "rsiBand",
+        "dailyTradingActivity",
+        "intradayVwap",
+        "intradayTradingActivity",
+        "sessionRangePosition",
+        "verifiedRecentEvent"
+      ],
+      "dataQualityWarnings": [
+        "Current market evidence unavailable",
+        "Daily evidence unavailable or stale",
+        "Current intraday evidence unavailable or stale"
+      ]
+    },
+    {
+      "schemaVersion": "assistant-snapshot-v1",
+      "ticker": "NVDA",
+      "company": "NVIDIA",
+      "analysisTimestamp": "2026-09-14T12:34:58.064Z",
+      "dataFreshness": "unavailable",
+      "marketState": "unknown",
+      "evidence": {
+        "longerTermTrend": "unavailable",
+        "shortTermMomentum": "unavailable",
+        "rsiBand": "unavailable",
+        "dailyTradingActivity": "unavailable",
+        "intradayVwap": "unavailable",
+        "intradayTradingActivity": "unavailable",
+        "sessionRangePosition": "unavailable"
+      },
+      "verifiedEvent": {
+        "detected": false,
+        "category": null,
+        "age": null
+      },
+      "supportingEvidence": [],
+      "conflictingEvidence": [],
+      "missingEvidence": [
+        "longerTermTrend",
+        "shortTermMomentum",
+        "rsiBand",
+        "dailyTradingActivity",
+        "intradayVwap",
+        "intradayTradingActivity",
+        "sessionRangePosition",
+        "verifiedRecentEvent"
+      ],
+      "dataQualityWarnings": [
+        "Current market evidence unavailable",
+        "Daily evidence unavailable or stale",
+        "Current intraday evidence unavailable or stale"
+      ]
+    },
+    {
+      "schemaVersion": "assistant-snapshot-v1",
+      "ticker": "AMZN",
+      "company": "Amazon",
+      "analysisTimestamp": "2026-09-14T12:34:58.064Z",
+      "dataFreshness": "unavailable",
+      "marketState": "unknown",
+      "evidence": {
+        "longerTermTrend": "unavailable",
+        "shortTermMomentum": "unavailable",
+        "rsiBand": "unavailable",
+        "dailyTradingActivity": "unavailable",
+        "intradayVwap": "unavailable",
+        "intradayTradingActivity": "unavailable",
+        "sessionRangePosition": "unavailable"
+      },
+      "verifiedEvent": {
+        "detected": false,
+        "category": null,
+        "age": null
+      },
+      "supportingEvidence": [],
+      "conflictingEvidence": [],
+      "missingEvidence": [
+        "longerTermTrend",
+        "shortTermMomentum",
+        "rsiBand",
+        "dailyTradingActivity",
+        "intradayVwap",
+        "intradayTradingActivity",
+        "sessionRangePosition",
+        "verifiedRecentEvent"
+      ],
+      "dataQualityWarnings": [
+        "Current market evidence unavailable",
+        "Daily evidence unavailable or stale",
+        "Current intraday evidence unavailable or stale"
+      ]
+    },
+    {
+      "schemaVersion": "assistant-snapshot-v1",
+      "ticker": "PYPL",
+      "company": "PayPal",
+      "analysisTimestamp": "2026-09-14T12:34:58.064Z",
+      "dataFreshness": "unavailable",
+      "marketState": "unknown",
+      "evidence": {
+        "longerTermTrend": "unavailable",
+        "shortTermMomentum": "unavailable",
+        "rsiBand": "unavailable",
+        "dailyTradingActivity": "unavailable",
+        "intradayVwap": "unavailable",
+        "intradayTradingActivity": "unavailable",
+        "sessionRangePosition": "unavailable"
+      },
+      "verifiedEvent": {
+        "detected": false,
+        "category": null,
+        "age": null
+      },
+      "supportingEvidence": [],
+      "conflictingEvidence": [],
+      "missingEvidence": [
+        "longerTermTrend",
+        "shortTermMomentum",
+        "rsiBand",
+        "dailyTradingActivity",
+        "intradayVwap",
+        "intradayTradingActivity",
+        "sessionRangePosition",
+        "verifiedRecentEvent"
+      ],
+      "dataQualityWarnings": [
+        "Current market evidence unavailable",
+        "Daily evidence unavailable or stale",
+        "Current intraday evidence unavailable or stale"
+      ]
+    }
+  ]
+}
