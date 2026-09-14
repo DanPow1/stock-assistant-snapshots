@@ -1,36 +1,33 @@
 {
-  "generatedAt": "2026-09-14T14:26:39.615Z",
+  "generatedAt": "2026-09-14T17:12:35.806Z",
   "schemaVersion": "assistant-snapshot-v1",
   "ticker": "MSFT",
   "company": "Microsoft",
-  "analysisTimestamp": "2026-09-14T14:26:39.615Z",
-  "dataFreshness": "unavailable",
-  "marketState": "unknown",
+  "analysisTimestamp": "2026-09-14T17:10:14.950Z",
+  "dataFreshness": "fresh",
+  "marketState": "open",
   "evidence": {
-    "longerTermTrend": "unavailable",
-    "shortTermMomentum": "unavailable",
-    "rsiBand": "50-60",
+    "longerTermTrend": "above",
+    "shortTermMomentum": "above",
+    "rsiBand": "60-70",
     "dailyTradingActivity": "low",
-    "intradayVwap": "unavailable",
-    "intradayTradingActivity": "unavailable",
-    "sessionRangePosition": "unavailable"
+    "intradayVwap": "above",
+    "intradayTradingActivity": "low",
+    "sessionRangePosition": "upper-third"
   },
   "verifiedEvent": {
     "detected": false,
     "category": null,
     "age": null
   },
-  "supportingEvidence": [],
+  "supportingEvidence": [
+    "Price above longer-term average",
+    "Price above shorter-term average",
+    "Session price above VWAP"
+  ],
   "conflictingEvidence": [],
   "missingEvidence": [
-    "longerTermTrend",
-    "shortTermMomentum",
-    "intradayVwap",
-    "intradayTradingActivity",
-    "sessionRangePosition",
     "verifiedRecentEvent"
   ],
-  "dataQualityWarnings": [
-    "Current intraday evidence unavailable or stale"
-  ]
+  "dataQualityWarnings": []
 }

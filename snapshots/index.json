@@ -1,13 +1,13 @@
 {
   "schemaVersion": "stock-snapshot-index-v1",
-  "generatedAt": "2026-09-14T14:26:39.615Z",
-  "providerCalls": 10,
+  "generatedAt": "2026-09-14T17:12:35.806Z",
+  "providerCalls": 15,
   "snapshots": [
     {
       "schemaVersion": "assistant-snapshot-v1",
       "ticker": "AAPL",
       "company": "Apple",
-      "analysisTimestamp": "2026-09-14T14:26:39.615Z",
+      "analysisTimestamp": "2026-09-14T17:09:28.000Z",
       "dataFreshness": "fresh",
       "marketState": "open",
       "evidence": {
@@ -15,9 +15,9 @@
         "shortTermMomentum": "above",
         "rsiBand": "60-70",
         "dailyTradingActivity": "low",
-        "intradayVwap": "unavailable",
-        "intradayTradingActivity": "unavailable",
-        "sessionRangePosition": "unavailable"
+        "intradayVwap": "above",
+        "intradayTradingActivity": "low",
+        "sessionRangePosition": "upper-third"
       },
       "verifiedEvent": {
         "detected": false,
@@ -26,158 +26,145 @@
       },
       "supportingEvidence": [
         "Price above longer-term average",
-        "Price above shorter-term average"
+        "Price above shorter-term average",
+        "Session price above VWAP"
       ],
       "conflictingEvidence": [],
       "missingEvidence": [
-        "intradayVwap",
-        "intradayTradingActivity",
-        "sessionRangePosition",
         "verifiedRecentEvent"
       ],
-      "dataQualityWarnings": [
-        "Current intraday evidence unavailable or stale"
-      ]
+      "dataQualityWarnings": []
     },
     {
       "schemaVersion": "assistant-snapshot-v1",
       "ticker": "MSFT",
       "company": "Microsoft",
-      "analysisTimestamp": "2026-09-14T14:26:39.615Z",
-      "dataFreshness": "unavailable",
-      "marketState": "unknown",
+      "analysisTimestamp": "2026-09-14T17:10:14.950Z",
+      "dataFreshness": "fresh",
+      "marketState": "open",
       "evidence": {
-        "longerTermTrend": "unavailable",
-        "shortTermMomentum": "unavailable",
-        "rsiBand": "50-60",
+        "longerTermTrend": "above",
+        "shortTermMomentum": "above",
+        "rsiBand": "60-70",
         "dailyTradingActivity": "low",
-        "intradayVwap": "unavailable",
-        "intradayTradingActivity": "unavailable",
-        "sessionRangePosition": "unavailable"
+        "intradayVwap": "above",
+        "intradayTradingActivity": "low",
+        "sessionRangePosition": "upper-third"
       },
       "verifiedEvent": {
         "detected": false,
         "category": null,
         "age": null
       },
-      "supportingEvidence": [],
+      "supportingEvidence": [
+        "Price above longer-term average",
+        "Price above shorter-term average",
+        "Session price above VWAP"
+      ],
       "conflictingEvidence": [],
       "missingEvidence": [
-        "longerTermTrend",
-        "shortTermMomentum",
-        "intradayVwap",
-        "intradayTradingActivity",
-        "sessionRangePosition",
         "verifiedRecentEvent"
       ],
-      "dataQualityWarnings": [
-        "Current intraday evidence unavailable or stale"
-      ]
+      "dataQualityWarnings": []
     },
     {
       "schemaVersion": "assistant-snapshot-v1",
       "ticker": "NVDA",
       "company": "NVIDIA",
-      "analysisTimestamp": "2026-09-14T14:26:39.615Z",
-      "dataFreshness": "unavailable",
-      "marketState": "unknown",
+      "analysisTimestamp": "2026-09-14T17:11:01.975Z",
+      "dataFreshness": "fresh",
+      "marketState": "open",
       "evidence": {
-        "longerTermTrend": "unavailable",
-        "shortTermMomentum": "unavailable",
+        "longerTermTrend": "below",
+        "shortTermMomentum": "below",
         "rsiBand": "40-50",
         "dailyTradingActivity": "low",
-        "intradayVwap": "unavailable",
-        "intradayTradingActivity": "unavailable",
-        "sessionRangePosition": "unavailable"
+        "intradayVwap": "above",
+        "intradayTradingActivity": "low",
+        "sessionRangePosition": "upper-third"
       },
       "verifiedEvent": {
         "detected": false,
         "category": null,
         "age": null
       },
-      "supportingEvidence": [],
-      "conflictingEvidence": [],
+      "supportingEvidence": [
+        "Session price above VWAP"
+      ],
+      "conflictingEvidence": [
+        "Price below longer-term average",
+        "Price below shorter-term average"
+      ],
       "missingEvidence": [
-        "longerTermTrend",
-        "shortTermMomentum",
-        "intradayVwap",
-        "intradayTradingActivity",
-        "sessionRangePosition",
         "verifiedRecentEvent"
       ],
-      "dataQualityWarnings": [
-        "Current intraday evidence unavailable or stale"
-      ]
+      "dataQualityWarnings": []
     },
     {
       "schemaVersion": "assistant-snapshot-v1",
       "ticker": "AMZN",
       "company": "Amazon",
-      "analysisTimestamp": "2026-09-14T14:26:39.615Z",
-      "dataFreshness": "unavailable",
-      "marketState": "unknown",
+      "analysisTimestamp": "2026-09-14T17:11:48.892Z",
+      "dataFreshness": "fresh",
+      "marketState": "open",
       "evidence": {
-        "longerTermTrend": "unavailable",
-        "shortTermMomentum": "unavailable",
+        "longerTermTrend": "below",
+        "shortTermMomentum": "below",
         "rsiBand": "40-50",
         "dailyTradingActivity": "low",
-        "intradayVwap": "unavailable",
-        "intradayTradingActivity": "unavailable",
-        "sessionRangePosition": "unavailable"
+        "intradayVwap": "above",
+        "intradayTradingActivity": "low",
+        "sessionRangePosition": "upper-third"
       },
       "verifiedEvent": {
         "detected": false,
         "category": null,
         "age": null
       },
-      "supportingEvidence": [],
-      "conflictingEvidence": [],
+      "supportingEvidence": [
+        "Session price above VWAP"
+      ],
+      "conflictingEvidence": [
+        "Price below longer-term average",
+        "Price below shorter-term average"
+      ],
       "missingEvidence": [
-        "longerTermTrend",
-        "shortTermMomentum",
-        "intradayVwap",
-        "intradayTradingActivity",
-        "sessionRangePosition",
         "verifiedRecentEvent"
       ],
-      "dataQualityWarnings": [
-        "Current intraday evidence unavailable or stale"
-      ]
+      "dataQualityWarnings": []
     },
     {
       "schemaVersion": "assistant-snapshot-v1",
       "ticker": "PYPL",
       "company": "PayPal",
-      "analysisTimestamp": "2026-09-14T14:26:39.615Z",
-      "dataFreshness": "unavailable",
-      "marketState": "unknown",
+      "analysisTimestamp": "2026-09-14T17:12:35.805Z",
+      "dataFreshness": "fresh",
+      "marketState": "open",
       "evidence": {
-        "longerTermTrend": "unavailable",
-        "shortTermMomentum": "unavailable",
+        "longerTermTrend": "below",
+        "shortTermMomentum": "below",
         "rsiBand": "40-50",
         "dailyTradingActivity": "low",
-        "intradayVwap": "unavailable",
-        "intradayTradingActivity": "unavailable",
-        "sessionRangePosition": "unavailable"
+        "intradayVwap": "above",
+        "intradayTradingActivity": "low",
+        "sessionRangePosition": "middle-third"
       },
       "verifiedEvent": {
         "detected": false,
         "category": null,
         "age": null
       },
-      "supportingEvidence": [],
-      "conflictingEvidence": [],
+      "supportingEvidence": [
+        "Session price above VWAP"
+      ],
+      "conflictingEvidence": [
+        "Price below longer-term average",
+        "Price below shorter-term average"
+      ],
       "missingEvidence": [
-        "longerTermTrend",
-        "shortTermMomentum",
-        "intradayVwap",
-        "intradayTradingActivity",
-        "sessionRangePosition",
         "verifiedRecentEvent"
       ],
-      "dataQualityWarnings": [
-        "Current intraday evidence unavailable or stale"
-      ]
+      "dataQualityWarnings": []
     }
   ]
 }

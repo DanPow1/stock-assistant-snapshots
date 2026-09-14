@@ -1,36 +1,34 @@
 {
-  "generatedAt": "2026-09-14T14:26:39.615Z",
+  "generatedAt": "2026-09-14T17:12:35.806Z",
   "schemaVersion": "assistant-snapshot-v1",
   "ticker": "PYPL",
   "company": "PayPal",
-  "analysisTimestamp": "2026-09-14T14:26:39.615Z",
-  "dataFreshness": "unavailable",
-  "marketState": "unknown",
+  "analysisTimestamp": "2026-09-14T17:12:35.805Z",
+  "dataFreshness": "fresh",
+  "marketState": "open",
   "evidence": {
-    "longerTermTrend": "unavailable",
-    "shortTermMomentum": "unavailable",
+    "longerTermTrend": "below",
+    "shortTermMomentum": "below",
     "rsiBand": "40-50",
     "dailyTradingActivity": "low",
-    "intradayVwap": "unavailable",
-    "intradayTradingActivity": "unavailable",
-    "sessionRangePosition": "unavailable"
+    "intradayVwap": "above",
+    "intradayTradingActivity": "low",
+    "sessionRangePosition": "middle-third"
   },
   "verifiedEvent": {
     "detected": false,
     "category": null,
     "age": null
   },
-  "supportingEvidence": [],
-  "conflictingEvidence": [],
+  "supportingEvidence": [
+    "Session price above VWAP"
+  ],
+  "conflictingEvidence": [
+    "Price below longer-term average",
+    "Price below shorter-term average"
+  ],
   "missingEvidence": [
-    "longerTermTrend",
-    "shortTermMomentum",
-    "intradayVwap",
-    "intradayTradingActivity",
-    "sessionRangePosition",
     "verifiedRecentEvent"
   ],
-  "dataQualityWarnings": [
-    "Current intraday evidence unavailable or stale"
-  ]
+  "dataQualityWarnings": []
 }
