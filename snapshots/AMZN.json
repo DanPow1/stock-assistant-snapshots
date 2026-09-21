@@ -1,31 +1,31 @@
 {
-  "generatedAt": "2026-09-18T18:28:57.823Z",
+  "generatedAt": "2026-09-21T14:28:30.629Z",
   "schemaVersion": "assistant-snapshot-v1",
   "ticker": "AMZN",
   "company": "Amazon",
-  "analysisTimestamp": "2026-09-18T18:28:10.870Z",
+  "analysisTimestamp": "2026-09-21T14:27:43.676Z",
   "dataFreshness": "fresh",
   "marketState": "open",
   "evidence": {
-    "longerTermTrend": "below",
-    "shortTermMomentum": "below",
-    "rsiBand": "40-50",
+    "longerTermTrend": "above",
+    "shortTermMomentum": "above",
+    "rsiBand": "50-60",
     "dailyTradingActivity": "low",
-    "intradayVwap": "below",
+    "intradayVwap": "above",
     "intradayTradingActivity": "low",
-    "sessionRangePosition": "middle-third"
+    "sessionRangePosition": "upper-third"
   },
   "verifiedEvent": {
     "detected": false,
     "category": null,
     "age": null
   },
-  "supportingEvidence": [],
-  "conflictingEvidence": [
-    "Price below longer-term average",
-    "Price below shorter-term average",
-    "Session price below VWAP"
+  "supportingEvidence": [
+    "Price above longer-term average",
+    "Price above shorter-term average",
+    "Session price above VWAP"
   ],
+  "conflictingEvidence": [],
   "missingEvidence": [
     "verifiedRecentEvent"
   ],
