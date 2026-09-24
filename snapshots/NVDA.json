@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-23T18:31:00.325Z",
+  "generatedAt": "2026-09-24T14:29:10.103Z",
   "schemaVersion": "assistant-snapshot-v1",
   "ticker": "NVDA",
   "company": "NVIDIA",
-  "analysisTimestamp": "2026-09-23T18:29:26.315Z",
+  "analysisTimestamp": "2026-09-24T14:27:36.085Z",
   "dataFreshness": "fresh",
   "marketState": "open",
   "evidence": {
@@ -13,7 +13,7 @@
     "dailyTradingActivity": "low",
     "intradayVwap": "below",
     "intradayTradingActivity": "low",
-    "sessionRangePosition": "lower-third"
+    "sessionRangePosition": "middle-third"
   },
   "verifiedEvent": {
     "detected": false,
