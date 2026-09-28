@@ -1,13 +1,13 @@
 {
   "schemaVersion": "stock-snapshot-index-v1",
-  "generatedAt": "2026-09-28T14:32:55.229Z",
+  "generatedAt": "2026-09-28T18:32:39.955Z",
   "providerCalls": 15,
   "snapshots": [
     {
       "schemaVersion": "assistant-snapshot-v1",
       "ticker": "AAPL",
       "company": "Apple",
-      "analysisTimestamp": "2026-09-28T14:29:47.975Z",
+      "analysisTimestamp": "2026-09-28T18:29:33.038Z",
       "dataFreshness": "fresh",
       "marketState": "open",
       "evidence": {
@@ -17,7 +17,7 @@
         "dailyTradingActivity": "low",
         "intradayVwap": "below",
         "intradayTradingActivity": "low",
-        "sessionRangePosition": "middle-third"
+        "sessionRangePosition": "lower-third"
       },
       "verifiedEvent": {
         "detected": false,
@@ -40,7 +40,7 @@
       "schemaVersion": "assistant-snapshot-v1",
       "ticker": "MSFT",
       "company": "Microsoft",
-      "analysisTimestamp": "2026-09-28T14:30:34.825Z",
+      "analysisTimestamp": "2026-09-28T18:30:19.776Z",
       "dataFreshness": "fresh",
       "marketState": "open",
       "evidence": {
@@ -72,17 +72,17 @@
       "schemaVersion": "assistant-snapshot-v1",
       "ticker": "NVDA",
       "company": "NVIDIA",
-      "analysisTimestamp": "2026-09-28T14:31:21.622Z",
+      "analysisTimestamp": "2026-09-28T18:31:06.514Z",
       "dataFreshness": "fresh",
       "marketState": "open",
       "evidence": {
         "longerTermTrend": "above",
         "shortTermMomentum": "above",
-        "rsiBand": "60-70",
+        "rsiBand": "50-60",
         "dailyTradingActivity": "low",
         "intradayVwap": "below",
         "intradayTradingActivity": "low",
-        "sessionRangePosition": "middle-third"
+        "sessionRangePosition": "lower-third"
       },
       "verifiedEvent": {
         "detected": false,
@@ -105,7 +105,7 @@
       "schemaVersion": "assistant-snapshot-v1",
       "ticker": "AMZN",
       "company": "Amazon",
-      "analysisTimestamp": "2026-09-28T14:32:08.422Z",
+      "analysisTimestamp": "2026-09-28T18:31:53.231Z",
       "dataFreshness": "fresh",
       "marketState": "open",
       "evidence": {
@@ -138,7 +138,7 @@
       "schemaVersion": "assistant-snapshot-v1",
       "ticker": "PYPL",
       "company": "PayPal",
-      "analysisTimestamp": "2026-09-28T14:32:55.228Z",
+      "analysisTimestamp": "2026-09-28T18:32:39.954Z",
       "dataFreshness": "fresh",
       "marketState": "open",
       "evidence": {
