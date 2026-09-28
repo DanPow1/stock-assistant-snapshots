@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-25T18:29:18.223Z",
+  "generatedAt": "2026-09-28T14:32:55.229Z",
   "schemaVersion": "assistant-snapshot-v1",
   "ticker": "AMZN",
   "company": "Amazon",
-  "analysisTimestamp": "2026-09-25T18:28:31.052Z",
+  "analysisTimestamp": "2026-09-28T14:32:08.422Z",
   "dataFreshness": "fresh",
   "marketState": "open",
   "evidence": {
@@ -13,7 +13,7 @@
     "dailyTradingActivity": "low",
     "intradayVwap": "above",
     "intradayTradingActivity": "low",
-    "sessionRangePosition": "middle-third"
+    "sessionRangePosition": "upper-third"
   },
   "verifiedEvent": {
     "detected": false,
