@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-29T14:31:25.375Z",
+  "generatedAt": "2026-09-29T18:33:48.711Z",
   "schemaVersion": "assistant-snapshot-v1",
   "ticker": "MSFT",
   "company": "Microsoft",
-  "analysisTimestamp": "2026-09-29T14:29:04.625Z",
+  "analysisTimestamp": "2026-09-29T18:31:27.937Z",
   "dataFreshness": "fresh",
   "marketState": "open",
   "evidence": {
@@ -11,9 +11,9 @@
     "shortTermMomentum": "above",
     "rsiBand": "50-60",
     "dailyTradingActivity": "low",
-    "intradayVwap": "above",
-    "intradayTradingActivity": "typical",
-    "sessionRangePosition": "upper-third"
+    "intradayVwap": "below",
+    "intradayTradingActivity": "low",
+    "sessionRangePosition": "middle-third"
   },
   "verifiedEvent": {
     "detected": false,
@@ -22,10 +22,11 @@
   },
   "supportingEvidence": [
     "Price above longer-term average",
-    "Price above shorter-term average",
-    "Session price above VWAP"
+    "Price above shorter-term average"
   ],
-  "conflictingEvidence": [],
+  "conflictingEvidence": [
+    "Session price below VWAP"
+  ],
   "missingEvidence": [
     "verifiedRecentEvent"
   ],
