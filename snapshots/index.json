@@ -1,19 +1,19 @@
 {
   "schemaVersion": "stock-snapshot-index-v1",
-  "generatedAt": "2026-09-28T18:32:39.955Z",
+  "generatedAt": "2026-09-29T14:31:25.375Z",
   "providerCalls": 15,
   "snapshots": [
     {
       "schemaVersion": "assistant-snapshot-v1",
       "ticker": "AAPL",
       "company": "Apple",
-      "analysisTimestamp": "2026-09-28T18:29:33.038Z",
+      "analysisTimestamp": "2026-09-29T14:28:17.701Z",
       "dataFreshness": "fresh",
       "marketState": "open",
       "evidence": {
         "longerTermTrend": "above",
         "shortTermMomentum": "above",
-        "rsiBand": "60-70",
+        "rsiBand": "50-60",
         "dailyTradingActivity": "low",
         "intradayVwap": "below",
         "intradayTradingActivity": "low",
@@ -40,7 +40,7 @@
       "schemaVersion": "assistant-snapshot-v1",
       "ticker": "MSFT",
       "company": "Microsoft",
-      "analysisTimestamp": "2026-09-28T18:30:19.776Z",
+      "analysisTimestamp": "2026-09-29T14:29:04.625Z",
       "dataFreshness": "fresh",
       "marketState": "open",
       "evidence": {
@@ -49,7 +49,7 @@
         "rsiBand": "50-60",
         "dailyTradingActivity": "low",
         "intradayVwap": "above",
-        "intradayTradingActivity": "low",
+        "intradayTradingActivity": "typical",
         "sessionRangePosition": "upper-third"
       },
       "verifiedEvent": {
@@ -72,7 +72,7 @@
       "schemaVersion": "assistant-snapshot-v1",
       "ticker": "NVDA",
       "company": "NVIDIA",
-      "analysisTimestamp": "2026-09-28T18:31:06.514Z",
+      "analysisTimestamp": "2026-09-29T14:29:51.555Z",
       "dataFreshness": "fresh",
       "marketState": "open",
       "evidence": {
@@ -105,7 +105,7 @@
       "schemaVersion": "assistant-snapshot-v1",
       "ticker": "AMZN",
       "company": "Amazon",
-      "analysisTimestamp": "2026-09-28T18:31:53.231Z",
+      "analysisTimestamp": "2026-09-29T14:30:38.473Z",
       "dataFreshness": "fresh",
       "marketState": "open",
       "evidence": {
@@ -114,8 +114,8 @@
         "rsiBand": "40-50",
         "dailyTradingActivity": "low",
         "intradayVwap": "above",
-        "intradayTradingActivity": "low",
-        "sessionRangePosition": "upper-third"
+        "intradayTradingActivity": "elevated",
+        "sessionRangePosition": "middle-third"
       },
       "verifiedEvent": {
         "detected": false,
@@ -138,7 +138,7 @@
       "schemaVersion": "assistant-snapshot-v1",
       "ticker": "PYPL",
       "company": "PayPal",
-      "analysisTimestamp": "2026-09-28T18:32:39.954Z",
+      "analysisTimestamp": "2026-09-29T14:31:25.375Z",
       "dataFreshness": "fresh",
       "marketState": "open",
       "evidence": {
