@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-02T14:32:40.686Z",
+  "generatedAt": "2026-10-02T18:33:52.376Z",
   "schemaVersion": "assistant-snapshot-v1",
   "ticker": "PYPL",
   "company": "PayPal",
-  "analysisTimestamp": "2026-10-02T14:32:40.685Z",
+  "analysisTimestamp": "2026-10-02T18:33:52.375Z",
   "dataFreshness": "fresh",
   "marketState": "open",
   "evidence": {
@@ -11,21 +11,20 @@
     "shortTermMomentum": "below",
     "rsiBand": "40-50",
     "dailyTradingActivity": "low",
-    "intradayVwap": "above",
+    "intradayVwap": "below",
     "intradayTradingActivity": "low",
-    "sessionRangePosition": "upper-third"
+    "sessionRangePosition": "lower-third"
   },
   "verifiedEvent": {
     "detected": false,
     "category": null,
     "age": null
   },
-  "supportingEvidence": [
-    "Session price above VWAP"
-  ],
+  "supportingEvidence": [],
   "conflictingEvidence": [
     "Price below longer-term average",
-    "Price below shorter-term average"
+    "Price below shorter-term average",
+    "Session price below VWAP"
   ],
   "missingEvidence": [
     "verifiedRecentEvent"
