@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-02T18:33:52.376Z",
+  "generatedAt": "2026-10-05T14:35:58.698Z",
   "schemaVersion": "assistant-snapshot-v1",
   "ticker": "AAPL",
   "company": "Apple",
-  "analysisTimestamp": "2026-10-02T18:30:44.479Z",
+  "analysisTimestamp": "2026-10-05T14:32:50.898Z",
   "dataFreshness": "fresh",
   "marketState": "open",
   "evidence": {
@@ -11,7 +11,7 @@
     "shortTermMomentum": "above",
     "rsiBand": "50-60",
     "dailyTradingActivity": "low",
-    "intradayVwap": "above",
+    "intradayVwap": "below",
     "intradayTradingActivity": "low",
     "sessionRangePosition": "middle-third"
   },
@@ -22,10 +22,11 @@
   },
   "supportingEvidence": [
     "Price above longer-term average",
-    "Price above shorter-term average",
-    "Session price above VWAP"
+    "Price above shorter-term average"
   ],
-  "conflictingEvidence": [],
+  "conflictingEvidence": [
+    "Session price below VWAP"
+  ],
   "missingEvidence": [
     "verifiedRecentEvent"
   ],

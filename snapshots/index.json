@@ -1,13 +1,13 @@
 {
   "schemaVersion": "stock-snapshot-index-v1",
-  "generatedAt": "2026-10-02T18:33:52.376Z",
+  "generatedAt": "2026-10-05T14:35:58.698Z",
   "providerCalls": 15,
   "snapshots": [
     {
       "schemaVersion": "assistant-snapshot-v1",
       "ticker": "AAPL",
       "company": "Apple",
-      "analysisTimestamp": "2026-10-02T18:30:44.479Z",
+      "analysisTimestamp": "2026-10-05T14:32:50.898Z",
       "dataFreshness": "fresh",
       "marketState": "open",
       "evidence": {
@@ -15,7 +15,7 @@
         "shortTermMomentum": "above",
         "rsiBand": "50-60",
         "dailyTradingActivity": "low",
-        "intradayVwap": "above",
+        "intradayVwap": "below",
         "intradayTradingActivity": "low",
         "sessionRangePosition": "middle-third"
       },
@@ -26,10 +26,11 @@
       },
       "supportingEvidence": [
         "Price above longer-term average",
-        "Price above shorter-term average",
-        "Session price above VWAP"
+        "Price above shorter-term average"
       ],
-      "conflictingEvidence": [],
+      "conflictingEvidence": [
+        "Session price below VWAP"
+      ],
       "missingEvidence": [
         "verifiedRecentEvent"
       ],
@@ -39,7 +40,7 @@
       "schemaVersion": "assistant-snapshot-v1",
       "ticker": "MSFT",
       "company": "Microsoft",
-      "analysisTimestamp": "2026-10-02T18:31:31.493Z",
+      "analysisTimestamp": "2026-10-05T14:33:37.843Z",
       "dataFreshness": "fresh",
       "marketState": "open",
       "evidence": {
@@ -49,7 +50,7 @@
         "dailyTradingActivity": "low",
         "intradayVwap": "below",
         "intradayTradingActivity": "low",
-        "sessionRangePosition": "lower-third"
+        "sessionRangePosition": "middle-third"
       },
       "verifiedEvent": {
         "detected": false,
@@ -72,7 +73,7 @@
       "schemaVersion": "assistant-snapshot-v1",
       "ticker": "NVDA",
       "company": "NVIDIA",
-      "analysisTimestamp": "2026-10-02T18:32:18.463Z",
+      "analysisTimestamp": "2026-10-05T14:34:24.810Z",
       "dataFreshness": "fresh",
       "marketState": "open",
       "evidence": {
@@ -80,9 +81,9 @@
         "shortTermMomentum": "above",
         "rsiBand": "60-70",
         "dailyTradingActivity": "low",
-        "intradayVwap": "below",
+        "intradayVwap": "above",
         "intradayTradingActivity": "low",
-        "sessionRangePosition": "lower-third"
+        "sessionRangePosition": "upper-third"
       },
       "verifiedEvent": {
         "detected": false,
@@ -91,11 +92,10 @@
       },
       "supportingEvidence": [
         "Price above longer-term average",
-        "Price above shorter-term average"
+        "Price above shorter-term average",
+        "Session price above VWAP"
       ],
-      "conflictingEvidence": [
-        "Session price below VWAP"
-      ],
+      "conflictingEvidence": [],
       "missingEvidence": [
         "verifiedRecentEvent"
       ],
@@ -105,7 +105,7 @@
       "schemaVersion": "assistant-snapshot-v1",
       "ticker": "AMZN",
       "company": "Amazon",
-      "analysisTimestamp": "2026-10-02T18:33:05.422Z",
+      "analysisTimestamp": "2026-10-05T14:35:11.768Z",
       "dataFreshness": "fresh",
       "marketState": "open",
       "evidence": {
@@ -115,7 +115,7 @@
         "dailyTradingActivity": "low",
         "intradayVwap": "below",
         "intradayTradingActivity": "low",
-        "sessionRangePosition": "lower-third"
+        "sessionRangePosition": "middle-third"
       },
       "verifiedEvent": {
         "detected": false,
@@ -137,27 +137,28 @@
       "schemaVersion": "assistant-snapshot-v1",
       "ticker": "PYPL",
       "company": "PayPal",
-      "analysisTimestamp": "2026-10-02T18:33:52.375Z",
+      "analysisTimestamp": "2026-10-05T14:35:58.697Z",
       "dataFreshness": "fresh",
       "marketState": "open",
       "evidence": {
         "longerTermTrend": "below",
-        "shortTermMomentum": "below",
+        "shortTermMomentum": "above",
         "rsiBand": "40-50",
         "dailyTradingActivity": "low",
         "intradayVwap": "below",
-        "intradayTradingActivity": "low",
-        "sessionRangePosition": "lower-third"
+        "intradayTradingActivity": "elevated",
+        "sessionRangePosition": "middle-third"
       },
       "verifiedEvent": {
         "detected": false,
         "category": null,
         "age": null
       },
-      "supportingEvidence": [],
+      "supportingEvidence": [
+        "Price above shorter-term average"
+      ],
       "conflictingEvidence": [
         "Price below longer-term average",
-        "Price below shorter-term average",
         "Session price below VWAP"
       ],
       "missingEvidence": [
