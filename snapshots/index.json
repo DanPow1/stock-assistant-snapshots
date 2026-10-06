@@ -1,83 +1,19 @@
 {
   "schemaVersion": "stock-snapshot-index-v1",
-  "generatedAt": "2026-10-06T14:32:49.579Z",
+  "generatedAt": "2026-10-06T18:32:41.178Z",
   "providerCalls": 15,
   "snapshots": [
     {
       "schemaVersion": "assistant-snapshot-v1",
       "ticker": "AAPL",
       "company": "Apple",
-      "analysisTimestamp": "2026-10-06T14:29:41.923Z",
+      "analysisTimestamp": "2026-10-06T18:29:34.061Z",
       "dataFreshness": "fresh",
       "marketState": "open",
       "evidence": {
         "longerTermTrend": "above",
-        "shortTermMomentum": "above",
+        "shortTermMomentum": "below",
         "rsiBand": "50-60",
-        "dailyTradingActivity": "low",
-        "intradayVwap": "above",
-        "intradayTradingActivity": "low",
-        "sessionRangePosition": "upper-third"
-      },
-      "verifiedEvent": {
-        "detected": false,
-        "category": null,
-        "age": null
-      },
-      "supportingEvidence": [
-        "Price above longer-term average",
-        "Price above shorter-term average",
-        "Session price above VWAP"
-      ],
-      "conflictingEvidence": [],
-      "missingEvidence": [
-        "verifiedRecentEvent"
-      ],
-      "dataQualityWarnings": []
-    },
-    {
-      "schemaVersion": "assistant-snapshot-v1",
-      "ticker": "MSFT",
-      "company": "Microsoft",
-      "analysisTimestamp": "2026-10-06T14:30:28.853Z",
-      "dataFreshness": "fresh",
-      "marketState": "open",
-      "evidence": {
-        "longerTermTrend": "above",
-        "shortTermMomentum": "above",
-        "rsiBand": "70-or-higher",
-        "dailyTradingActivity": "low",
-        "intradayVwap": "above",
-        "intradayTradingActivity": "low",
-        "sessionRangePosition": "upper-third"
-      },
-      "verifiedEvent": {
-        "detected": false,
-        "category": null,
-        "age": null
-      },
-      "supportingEvidence": [
-        "Price above longer-term average",
-        "Price above shorter-term average",
-        "Session price above VWAP"
-      ],
-      "conflictingEvidence": [],
-      "missingEvidence": [
-        "verifiedRecentEvent"
-      ],
-      "dataQualityWarnings": []
-    },
-    {
-      "schemaVersion": "assistant-snapshot-v1",
-      "ticker": "NVDA",
-      "company": "NVIDIA",
-      "analysisTimestamp": "2026-10-06T14:31:15.787Z",
-      "dataFreshness": "fresh",
-      "marketState": "open",
-      "evidence": {
-        "longerTermTrend": "above",
-        "shortTermMomentum": "above",
-        "rsiBand": "60-70",
         "dailyTradingActivity": "low",
         "intradayVwap": "above",
         "intradayTradingActivity": "low",
@@ -90,10 +26,77 @@
       },
       "supportingEvidence": [
         "Price above longer-term average",
-        "Price above shorter-term average",
         "Session price above VWAP"
       ],
-      "conflictingEvidence": [],
+      "conflictingEvidence": [
+        "Price below shorter-term average"
+      ],
+      "missingEvidence": [
+        "verifiedRecentEvent"
+      ],
+      "dataQualityWarnings": []
+    },
+    {
+      "schemaVersion": "assistant-snapshot-v1",
+      "ticker": "MSFT",
+      "company": "Microsoft",
+      "analysisTimestamp": "2026-10-06T18:30:20.892Z",
+      "dataFreshness": "fresh",
+      "marketState": "open",
+      "evidence": {
+        "longerTermTrend": "above",
+        "shortTermMomentum": "above",
+        "rsiBand": "60-70",
+        "dailyTradingActivity": "low",
+        "intradayVwap": "below",
+        "intradayTradingActivity": "low",
+        "sessionRangePosition": "lower-third"
+      },
+      "verifiedEvent": {
+        "detected": false,
+        "category": null,
+        "age": null
+      },
+      "supportingEvidence": [
+        "Price above longer-term average",
+        "Price above shorter-term average"
+      ],
+      "conflictingEvidence": [
+        "Session price below VWAP"
+      ],
+      "missingEvidence": [
+        "verifiedRecentEvent"
+      ],
+      "dataQualityWarnings": []
+    },
+    {
+      "schemaVersion": "assistant-snapshot-v1",
+      "ticker": "NVDA",
+      "company": "NVIDIA",
+      "analysisTimestamp": "2026-10-06T18:31:07.664Z",
+      "dataFreshness": "fresh",
+      "marketState": "open",
+      "evidence": {
+        "longerTermTrend": "above",
+        "shortTermMomentum": "above",
+        "rsiBand": "60-70",
+        "dailyTradingActivity": "low",
+        "intradayVwap": "below",
+        "intradayTradingActivity": "low",
+        "sessionRangePosition": "lower-third"
+      },
+      "verifiedEvent": {
+        "detected": false,
+        "category": null,
+        "age": null
+      },
+      "supportingEvidence": [
+        "Price above longer-term average",
+        "Price above shorter-term average"
+      ],
+      "conflictingEvidence": [
+        "Session price below VWAP"
+      ],
       "missingEvidence": [
         "verifiedRecentEvent"
       ],
@@ -103,7 +106,7 @@
       "schemaVersion": "assistant-snapshot-v1",
       "ticker": "AMZN",
       "company": "Amazon",
-      "analysisTimestamp": "2026-10-06T14:32:02.687Z",
+      "analysisTimestamp": "2026-10-06T18:31:54.409Z",
       "dataFreshness": "fresh",
       "marketState": "open",
       "evidence": {
@@ -136,7 +139,7 @@
       "schemaVersion": "assistant-snapshot-v1",
       "ticker": "PYPL",
       "company": "PayPal",
-      "analysisTimestamp": "2026-10-06T14:32:49.579Z",
+      "analysisTimestamp": "2026-10-06T18:32:41.177Z",
       "dataFreshness": "fresh",
       "marketState": "open",
       "evidence": {
@@ -144,7 +147,7 @@
         "shortTermMomentum": "above",
         "rsiBand": "50-60",
         "dailyTradingActivity": "low",
-        "intradayVwap": "above",
+        "intradayVwap": "below",
         "intradayTradingActivity": "low",
         "sessionRangePosition": "upper-third"
       },
@@ -154,11 +157,11 @@
         "age": null
       },
       "supportingEvidence": [
-        "Price above shorter-term average",
-        "Session price above VWAP"
+        "Price above shorter-term average"
       ],
       "conflictingEvidence": [
-        "Price below longer-term average"
+        "Price below longer-term average",
+        "Session price below VWAP"
       ],
       "missingEvidence": [
         "verifiedRecentEvent"

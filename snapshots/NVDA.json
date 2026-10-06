@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-06T14:32:49.579Z",
+  "generatedAt": "2026-10-06T18:32:41.178Z",
   "schemaVersion": "assistant-snapshot-v1",
   "ticker": "NVDA",
   "company": "NVIDIA",
-  "analysisTimestamp": "2026-10-06T14:31:15.787Z",
+  "analysisTimestamp": "2026-10-06T18:31:07.664Z",
   "dataFreshness": "fresh",
   "marketState": "open",
   "evidence": {
@@ -11,9 +11,9 @@
     "shortTermMomentum": "above",
     "rsiBand": "60-70",
     "dailyTradingActivity": "low",
-    "intradayVwap": "above",
+    "intradayVwap": "below",
     "intradayTradingActivity": "low",
-    "sessionRangePosition": "middle-third"
+    "sessionRangePosition": "lower-third"
   },
   "verifiedEvent": {
     "detected": false,
@@ -22,10 +22,11 @@
   },
   "supportingEvidence": [
     "Price above longer-term average",
-    "Price above shorter-term average",
-    "Session price above VWAP"
+    "Price above shorter-term average"
   ],
-  "conflictingEvidence": [],
+  "conflictingEvidence": [
+    "Session price below VWAP"
+  ],
   "missingEvidence": [
     "verifiedRecentEvent"
   ],
