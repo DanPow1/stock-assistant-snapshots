@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-10-13T14:36:20.887Z",
+  "generatedAt": "2026-10-13T18:38:53.189Z",
   "schemaVersion": "assistant-snapshot-v1",
   "ticker": "NVDA",
   "company": "NVIDIA",
-  "analysisTimestamp": "2026-10-13T14:34:47.401Z",
+  "analysisTimestamp": "2026-10-13T18:37:19.292Z",
   "dataFreshness": "fresh",
   "marketState": "open",
   "evidence": {
     "longerTermTrend": "above",
     "shortTermMomentum": "below",
-    "rsiBand": "40-50",
+    "rsiBand": "50-60",
     "dailyTradingActivity": "low",
     "intradayVwap": "above",
     "intradayTradingActivity": "low",
